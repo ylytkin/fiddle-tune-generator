@@ -1,0 +1,17 @@
+[
+    {
+        "id": 35043,
+        "setting": "19025",
+        "reason": "AttributeError(\"'NoneType' object has no attribute 'text'\")"
+    },
+    {
+        "id": 35043,
+        "setting": "19025",
+        "reason": "AttributeError(\"'NoneType' object has no attribute 'text'\")"
+    },
+    {
+        "id": 35043,
+        "setting": "19025",
+        "reason": "AttributeError(\"'NoneType' object has no attribute 'text'\")"
+    }
+]
