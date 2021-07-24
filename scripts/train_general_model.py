@@ -27,7 +27,7 @@ import pandas as pd
 from scipy import sparse
 
 from myutils import log
-from myutils.json_tools import save_json, load_json
+from myutils.json import save_json, load_json
 
 thread_count = mpl.cpu_count() // 3
 

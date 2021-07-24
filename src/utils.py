@@ -38,7 +38,7 @@ def generate_next_char_id(sequence: np.ndarray, n_chars: int, model: tf.keras.mo
     """
 
     x = tf.keras.utils.to_categorical(np.array([sequence]), num_classes=n_chars, dtype='int8')
-    distribution = model.predict_proba(x)[0]
+    distribution = model.predict(x)[0]
     ids, probas = truncate_distribution(distribution, top_p=top_p)
 
     char_id = np.random.choice(ids, p=probas)

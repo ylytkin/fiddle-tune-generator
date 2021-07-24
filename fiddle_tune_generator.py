@@ -12,7 +12,7 @@ from silence_tensorflow import silence_tensorflow
 from scripts.train_general_model import DATA_DIR, MODELS_DIR, SEQUENCE_LENGTH, PAD, BOS, EOS
 from src.utils import generate_tune
 
-from myutils.json_tools import load_json, save_json
+from myutils.json import load_json, save_json
 
 # TODO:
 # Integrated tune midi and pdf support

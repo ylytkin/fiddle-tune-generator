@@ -27,7 +27,7 @@ import pandas as pd
 from tqdm import tqdm
 
 from myutils import log
-from myutils.json_tools import load_json, save_json
+from myutils.json import load_json, save_json
 
 ROOT_DIR = Path(__file__).absolute().parent.parent
 DATA_DIR = ROOT_DIR / 'data'
